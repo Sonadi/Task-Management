@@ -6,22 +6,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/LightBlue"
+    android:background="@color/Lightpurple"
     tools:context=".MainActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp"
+        android:layout_marginTop="640dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginStart="330dp"
-        android:backgroundTint="@color/DarkBlue"
+        android:layout_marginStart="320dp"
+        android:backgroundTint="@color/DarkPurple"
         android:contentDescription="TODO"
         android:src="@drawable/baseline_add_24"
-        android:tint="@color/LightBlue"
-        app:layout_constraintBottom_toBottomOf="true"
-        app:layout_constraintEnd_toEndOf="True" />
+        android:tint="@color/Lightpurple"
+         />
 
 </RelativeLayout>
