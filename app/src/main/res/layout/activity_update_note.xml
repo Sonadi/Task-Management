@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lightpurple"
+    tools:context=".UpdateNoteActivity">
+
+
+    <TextView
+        android:id="@+id/edittextheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Edit Task"
+        android:textColor="@color/DarkPurple"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/updatesavebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_done_24"
+        android:layout_alignTop="@+id/edittextheading"
+        android:layout_marginLeft="350dp"
+        android:background="@color/DarkPurple"
+        />
+
+    <EditText
+        android:id="@+id/updatetitleedittext"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittextheading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/darkblue_border"
+        android:hint="Enter the text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"/>
+
+    <EditText
+        android:id="@+id/updatecontentedittext"
+        android:layout_width="350dp"
+        android:layout_height="624dp"
+        android:layout_below="@+id/updatetitleedittext"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/darkblue_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="Enter the discription"
+        android:padding="12dp"
+        android:textSize="18sp" />
+</RelativeLayout>
