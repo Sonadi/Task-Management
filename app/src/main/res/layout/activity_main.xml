@@ -19,7 +19,8 @@
         android:fontFamily="@font/poppins"
         android:textColor="@color/DarkPurple"
         android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/taskRecycleView"
